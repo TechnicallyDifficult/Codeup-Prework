@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hello World</title>
+		<style>
+			h1, h2 {
+				color: #ff0
+			}
+			body {
+				color: #ffd37a;
+				text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+				font-family: Press Start K, Sans-Serif;
+				background-color: #0c88dc;
+				background-image: url(img/background.png);
+				line-height: 150%;
+			}
+			.link {
+				text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+			}
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			ul {
+				list-style: none;
+			}
+			ul li:before {
+				content: '\2023';
+				padding: 10px;
+			}
+			ol {
+				counter-reset: li;
+				list-style: none;
+			}
+			ol li:before {
+				content: counter(li)'.';
+				counter-increment: li;
+				padding: 10px;
+			}
+			td, tr {
+				font-size: 18px;
+				padding: 6px;
+			}
+		</style>
+	</head>
+	<body>
+		<a id="top"></a>
+		<h1>Hello World</h1>
+		<p>My name is Jacob.<br>
+			I'm learning <em>Japanese</em>.<br>
+			I'm learning to <strong>code</strong>.
+		</p>
+		<h2>My Favorite Quote</h2>
+		<blockquote>I never really said most of the things I said.</blockquote>
+		<h2>I'm Learning the LAMP Stack</h2>
+		<ul>
+			<li>Linux</li>
+			<li>Apache</li>
+			<li>MySQL</li>
+			<li>PHP</li>
+		</ul>
+		<h2>My Top 5 Favorite Games</h2>
+		<ol>
+			<li>Undertale</li>
+			<li>Super Metroid</li>
+			<li>EarthBound</li>
+			<li>Chrono Trigger</li>
+			<li>Portal 2</li>
+		</ol>
+		<h2>Questions I'm Often Asked</h2>
+		<dl>
+			<dt>How are you?</dt>
+			<dd>Fine.</dd>
+			<dt>What are you up to?</dt>
+			<dd>Not much.</dd>
+		</dl>
+		<h2>My Favorite Websites</h2>
+		<ul>
+			<li class="ul"><a href="http://www.google.com" target="_blank" class="link">Google</a></li>
+			<li class="ul"><a href="http://www.youtube.com" target="_blank" class="link">YouTube</a></li>
+			<li class="ul"><a href="http://www.wanikani.com" target="_blank" class="link">WaniKani</a></li>
+			<li class="ul"><a href="http://www.homestarrunner.com" target="_blank" class="link">Homestar Runner</a></li>
+			<li class="ul"><a href="http://www.something.com" target="_blank" class="link">Something</a></li>
+		</ul>
+		<h2>My Vehicle</h2>
+		<p>I don't have one, but... A delorean would be pretty cool.</p>
+		<img src="img/Back-to-the-Future-Fan-Art-560x315.jpg" alt="Delorean">
+		<h2>Decimal to Hexadecimal Conversion Chart</h2>
+		<table>
+			<tr>
+				<th>Decimal</th>
+				<th>Hexadecimal</th>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>E</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>F</td>
+			</tr>
+		</table>
+		<a href="#top" class="link">Top</a>
+	</body>
+</html>
